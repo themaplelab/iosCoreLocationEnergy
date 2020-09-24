@@ -1,2 +1,3 @@
-# iosLocationAPI
-Benchmarks for iOS locations API
+# iOS Mapkit
+
+Exploiting the energy vulnerabilities of Mapkit Location APIs.
