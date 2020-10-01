@@ -49,30 +49,29 @@ locationManager.distanceFilter = 4096
 Visit Monitoring API - airborne (Benchmarks [link](https://github.com/themaplelab/iosCoreLocationEnergy/tree/master/LocationBenchmarks/VisitMonitoringAPI/VisitMoniotoringAPI_TypeAirborne) )
 ```
 locationManager.startMonitoringVisits()
-locationManager.delegate = self
 locationManager.activityType = CLActivityType.airborne
 ```
 Visit Monitoring API - automotive (Benchmarks [link](https://github.com/themaplelab/iosCoreLocationEnergy/tree/master/LocationBenchmarks/VisitMonitoringAPI/VisitMoniotoringAPI_TypeAutomativeNavigation) )
 ```
 locationManager.startMonitoringVisits()
-locationManager.delegate = self
 locationManager.activityType = CLActivityType.automotiveNavigation
 ```
 Visit Monitoring API - other (Benchmarks [link](https://github.com/themaplelab/iosCoreLocationEnergy/tree/master/LocationBenchmarks/VisitMonitoringAPI/VisitMoniotoringAPI_TypeOther) )
 ```
 locationManager.startMonitoringVisits()
-locationManager.delegate = self
 locationManager.activityType = CLActivityType.other
 ```
 Visit Monitoring API - otherNavigation (Benchmarks [link](https://github.com/themaplelab/iosCoreLocationEnergy/tree/master/LocationBenchmarks/VisitMonitoringAPI/VisitMoniotoringAPI_TypeOtherNavigation) )
 ```
 locationManager.startMonitoringVisits()
-locationManager.delegate = self
 locationManager.activityType = CLActivityType.otherNavigation
 ```
 Visit Monitoring API - fitness (Benchmarks [link](https://github.com/themaplelab/iosCoreLocationEnergy/tree/master/LocationBenchmarks/VisitMonitoringAPI/VisitMoniotoringAPI_TypeFitness) )
 ```
 locationManager.startMonitoringVisits()
-locationManager.delegate = self
 locationManager.activityType = CLActivityType.fitness
+```
+Visit Monitoring API - default (Benchmarks [link](https://github.com/themaplelab/iosCoreLocationEnergy/tree/master/LocationBenchmarks/VisitMonitoringAPI/VisitMoniotoringAPI_TypeDefault) )
+```
+locationManager.startMonitoringVisits()
 ```
